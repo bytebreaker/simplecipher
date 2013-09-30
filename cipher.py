@@ -4,6 +4,14 @@
 # adopted from code by Al Sweigart http://goo.gl/Of5DSb
 # abe@3vilgenius.com
 
+#To download this file, right click the 'Raw' button in github
+#and save the file cipher.py to the Desktop.
+#Copy the file with encrypted text to the Desktop.
+#Then run the script on the command line like this:
+# python cipher.py
+
+#poof! you should find a new file (quotes_decrypted.txt)
+
 import os
 
 #Assume that we don't want to shift characters more than 26 places (based on standard English character set)
